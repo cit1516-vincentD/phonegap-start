@@ -28,19 +28,50 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
+			<link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
-    <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
+    <body">
+	<div align="center">
+
+		<svg height="600" width="800">
+		
+		
+			<polygon points="250,50 650,50 650,450 250,450" style="stroke:red" />
+			<polygon points="290,90 610,90 610,410 290,410" fill="white" style="stroke:red"/>
+			<polygon points="330,130 570,130 570,370 330,370" fill="black" style="stroke:red" />
+			<polygon points="370,170 530,170 530,330 370,330" fill="white" style="stroke:red" />
+			<polygon points="410,290 490,290 450,500" fill="black" style="stroke:red" />
+			<polygon points="410,210 410,290 150,250" fill="purple" style="stroke:yellow" />
+			<polygon points="490,210 490,290 750,250" fill="purple" style="stroke:yellow" />
+			<polygon points="410,210, 490,210 450,1" style="stroke:red" />
+			
+			
+			<polygon points="" /> 
+			<polygon points="" />
+			<polygon points="" />
+			<polygon points="" />
+			<polygon points="" />
+			<polygon points="" />
+			<circle cx=670 cy=790 r=150 stroke="black" fill="blue" />
+				
+				
+		<svg height="700" width="500">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(555,555,555);
+      stop-opacity:0" />
+      <stop offset="100%" style="stop-color:rgb(8,1000,365);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <ellipse cx="450" cy="250" rx="50" ry="55" fill="url(#grad1)" />
+</svg>		
+	</div>	
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
+		
+		
     </body>
 </html>
